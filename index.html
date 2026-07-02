@@ -1,0 +1,461 @@
+<!--header--------------------------------------------------------------------------------------------->
+<?php
+include("header.php");
+?>
+<!--navigation .current Function-------------->
+    <script>
+      document.write('<script src="navigation.html"></' + 'script>');
+    </script>
+    <script>
+      // Get the current page URL
+      var currentPage = window.location.href;
+
+      // Get all the navigation links
+      var navLinks = document.querySelectorAll('nav a');
+
+      // Loop through each navigation link
+      navLinks.forEach(function(link) {
+        // Check if the link's href matches the current page URL
+        if (link.href === currentPage) {
+          // Add a class to the matching link to highlight it
+          link.classList.add('current');
+        }
+      });
+    </script>
+<!--navigation .current Function End-------------->
+
+	<style>
+		h2 {
+			background-color: #004080;
+			color: #fff;
+			padding: 10px;
+			margin-top: 10px;
+			border-radius: 8px;
+			box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+		}
+		table {
+			width: 100%;
+			border-collapse: collapse;
+			color: black;
+		}
+
+		th,
+		td {
+			border: 1px solid #ddd;
+			padding: 6px;
+			text-align: center;
+		}
+
+		th {
+			background-color: #f2f2f2;
+		}
+
+		tr:nth-child(even) {
+			background-color: #f9f9f9;
+		}
+
+		tr:hover {
+			background-color: #ddd;
+		}
+
+		form {
+			margin-top: 20px;
+			text-align: center;
+		}
+
+		label {
+			font-weight: bold;
+			font-size: 14px;
+		}
+
+		input[type="number"] {
+			padding: 5px;
+			width: 310px;
+			font-size: 14px;
+			border-radius: 4px;
+			border: 1px solid #ccc;
+		}
+
+		button[type="submit"],
+		button[type="button"] {
+		padding: 8px 15px;
+		margin-top: 10px;
+		font-size: 14px;
+		background-color: #e1eaf1;
+		color: #333;
+		border: none;
+		border-radius: 4px;
+		cursor: pointer;
+		box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+		transition: background-color 0.3s, box-shadow 0.3s;
+		}
+
+		button[type="submit"]:hover,
+		button[type="button"]:hover {
+			color: #fff;
+				  background-color: #004080;
+				  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+				}
+
+
+		p.no-data {
+			text-align: center;
+			margin-top: 20px;
+			font-size: 14px;
+			color: #ff0000;
+		}
+
+		/* Responsive Styles */
+		@media screen and (max-width: 768px) {
+			h1 {
+				font-size: 18px;
+			}
+
+			.container {
+				max-width: 100%;
+			}
+
+			input[type="number"] {
+				width: 70%;
+			}
+
+			button[type="submit"],
+			button[type="button"] {
+				width: 70%;
+			}
+		}
+
+		/* Clear Button Icon */
+		.clear-icon::before {
+			content: "\2716";
+			display: inline-block;
+			margin-right: 5px;
+		}
+	</style>
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SDO LIGAO CITY</title>
+</head>
+<body>    
+</body>
+</html>
+
+	<style>
+		.table-container {
+			max-width: 100%; /* Adjust as needed */
+			width: auto; /* Allow the container to adjust based on its content */
+			margin: 0 auto; /* Center the container */
+		}
+
+		/* Ensure the table is responsive */
+		table {
+			width: 100%;
+		}
+		/* Example of CSS media queries */
+		@media screen and (max-width: 600px) {
+			table {
+				width: 100%;
+			}
+			.table-container {
+			max-width: 110%; /* Adjust as needed */
+			width: auto; /* Allow the container to adjust based on its content */
+			margin: 0 auto; /* Center the container */
+		}
+	}
+	</style>
+</div>
+</div>
+<BR>
+<!--end of Search functions-->
+        <style>
+            .elegant-heading {
+                font-size: 50px;
+                font-family: vivaldi;
+                color: #000066;
+                text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+            }
+        </style>
+
+
+		<!-- Carousel -->
+		<section id="carousel-section" style="text-align: center;">
+		<style>
+			.carousel-container {
+				max-width: 80%; /* Adjust as needed */
+				width: auto; /* Allow the container to adjust based on its content */
+				margin: 0 auto; /* Center the container */
+			}
+
+			.carousel-inner {
+				position: relative;
+				width: 100%;
+				height: auto; /* Auto height to maintain aspect ratio */
+			}
+
+			.carousel-inner img {
+				width: 100%;
+				height: auto;
+				object-fit: cover; /* Ensures the image covers the entire space */
+			}
+
+			@media (max-width: 768px) {
+				.carousel-container {
+					max-width: 80%; /* Adjusted maximum width for small devices */
+				}
+			}
+		</style>
+
+      <br><br/>
+      <section id="boxes">
+	  <div class="wrapper"align="center" >
+          <div class="css" align="center">
+              <h3><font color="gray"></font></h3>
+              <font face = "Monotype Corsiva" size = "6">"Empowering Education Through Transparent Fiscal Management"</font>
+				<br></br><br>
+              <p align="justify"><font size="4"><b>DEPED MISSION</b></font><br>
+                We dream of Filipinos
+                who passionately love their country
+                and whose values and competencies
+                enable them to realize their full potential
+                and contribute meaningfully to building the nation.
+
+                As a learner-centered public institution,
+                the Department of Education
+                continuously improves itself
+                to better serve its stakeholders.<br></br>
+              <p align="justify"><font size="4"><b>DEPED VISION</b></font><br>
+                To protect and promote the right of every Filipino to quality, equitable, culture-based, and complete basic education where:
+
+                Students learn in a child-friendly, gender-sensitive, safe, and motivating environment.
+                Teachers facilitate learning and constantly nurture every learner.
+                Administrators and staff, as stewards of the institution, ensure an enabling and supportive environment for effective learning to happen.
+                Family, community, and other stakeholders are actively engaged and share responsibility for developing life-long learners.<br></br>
+                  <p align="justify"><font size="4"><b>MANDATE</b></font><br>
+                    The Department of Education was established through the Education Decree of 1863 as the Superior Commission of Primary Instruction under a Chairman. The Education agency underwent many reorganization efforts in the 20th century in order to better define its purpose vis a vis the changing administrations and charters. The present day Department of Education was eventually mandated through Republic Act 9155, otherwise known as the Governance of Basic Education act of 2001 which establishes the mandate of this agency.
+
+                    The Department of Education (DepEd) formulates, implements, and coordinates policies, plans, programs and projects in the areas of formal and non-formal basic education. It supervises all elementary and secondary education institutions, including alternative learning systems, both public and private; and provides for the establishment and maintenance of a complete, adequate, and integrated system of basic education relevant to the goals of national development.
+                    <br></br><p align="justify"><font size="4"><b>CORE VALUES</b></font><br></br>
+                    <h3><center>  <i>Maka-Diyos<br>
+                      Maka-tao<br>
+                      Makakalikasan<br>
+                      Makabansa</i><br></center>
+                    </h3>
+          </div><br></br>
+		  
+		  <div class="css" id="deadlinesandadvisories" align="center">
+				  <h2><font color="gray"></font></h2><br>
+					  <font face = "Monotype Corsiva" size = "6"><b>MOOE FUND MONITORING</b></font>
+					<table>
+					<thead>
+						<tr>
+							<th>Total Allocation</th>
+							<th>Amount Downloaded</th>
+							<th>Downloading Rate</th>
+							<th>Liquidated Amount</th>
+							<th>Liquidation Rate</th>
+							<th>Unliquidated Balance</th>
+						</tr>
+					</thead>
+					<tbody>
+						<tr>
+							<td>0.00</td>
+							<td>0.00</td>
+							<td>0.00</td>
+							<td>0.00</td>
+							<td>0.00</td>
+							<td>0.00</td>
+						</tr>
+					</tbody>
+					</table>
+				  </div>
+				<br><br><br></br> 	
+		  		  <div class="css" id="deadlinesandadvisories" align="center">
+				  <h2><font color="gray"></font></h2><br>
+					  <font face = "Monotype Corsiva" size = "6"><b>DEADLINES AND ADVISORIES</b></font><BR><BR>
+					  <font face = "Monotype Corsiva" align="left" size = "4"><b>Upcoming Submission Deadlines</b></font><BR><BR>
+					  <font face = "Monotype Corsiva" align="left" size = "4"><b>DepEd Memoranda</b></font><BR><BR>
+					  <font face = "Monotype Corsiva" align="left" size = "4"><b>Finance Issuance/Memoranda</b></font><BR><BR>
+					  <font face = "Monotype Corsiva" align="left" size = "4"><b>COA Circulars and Advisories</b></font><BR><BR>
+				  </div>
+				<br><br><br></br>
+			<div class="css" id="downloads" align="center">
+				  <h2><font color="gray"></font></h2><br>
+					  <font face = "Monotype Corsiva" size = "6"><b>DOWNLOADS</b></font><BR><BR>
+					<table>
+					<thead>
+						<tr>
+							<th>File</th>
+							<th>Link</th>
+						</tr>
+					</thead>
+					<tbody>
+						<tr>
+							<td>Liquidation Forms and Templates</td>
+							<td>Download Now</td>
+						</tr>
+						<tr>
+							<td>Checklists</td>
+							<td>Download Now</td>
+						</tr>
+					</tbody>
+					</table>
+				  </div>
+				<br><br><br></br>
+			<div class="css" id="faq" align="center">
+				  <h2><font color="gray"></font></h2><br>
+					  <font face = "Monotype Corsiva" size = "6"><b>Frequently Ask Questions (FAQs)</b></font><BR><BR>
+						<div class="accordion" id="accordionExample">
+						  <div class="accordion-item">
+							<h2 class="accordion-header" id="headingOne">
+							  <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+								When should a cash advance be liquidated?
+							  </button>
+							</h2>
+							<div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+							  <div class="accordion-body">
+								Cash advances shall be liquidated within the period presribed under applicable COA rules, depending on the type of cash advance. Failure to liquidae within the prescribed period may result in the withholding of additional cash advances and other sanctions. 
+								<br>
+								<Strong>References:</Strong> COA Circlar No. 97-002 (Rules and Regulations on Cash Advances)
+								<br>PD No. 1445 (Government Auditing Code),Section 89
+							  </div>
+							</div>
+						  </div>
+						  <div class="accordion-item">
+							<h2 class="accordion-header" id="headingTwo">
+							  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+								Whose name should appear on the Official Receipt or Sales Invoice?
+							  </button>
+							</h2>
+							<div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
+							  <div class="accordion-body">
+									The Official Receipt or Sales Invoice should generally be issued in the name of the school or the implementing governmentagency, not in the personal name of the employee, unless specifically justified under applicable rules.
+								<br>
+								<Strong>References:</Strong> Government Accounting Manual
+								<br>BIR Invoicing Regulations
+								<br>COA Circular No. 2012-001
+							  </div>
+							</div>
+						  </div>
+						</div>
+				  </div>
+				<br><br><br></br>
+			<div class="css" id="interactiv monitoring dashboard" align="center">
+				  <h2><font color="gray"></font></h2><br>
+					  <font face = "Monotype Corsiva" size = "6"><b>INTERACTIVE MONITORING DASHBOARD</b></font><BR><BR>
+					  <font face = "Monotype Corsiva" align="left" size = "4"><b>MOOE Utilization</b></font><BR><BR>
+					  <font face = "Monotype Corsiva" align="left" size = "4"><b>Liquidation Submission Rate</b></font><BR><BR>
+					  <font face = "Monotype Corsiva" align="left" size = "4"><b>Cash Advance Monitoring</b></font><BR><BR>
+				  </div>
+				<br><br><br></br>
+			<div class="css" id="procurement" align="center">
+			  <h2><font color="gray"></font></h2>
+				  <font face = "Monotype Corsiva" size = "6"><b>PROCUREMENT/BAC TRACKING</b></font>
+				  <h3><center>  
+						 
+							Bids & Awards Committee<br>
+							Chairman<br>
+							Members of the Committee<br>
+							Alternate Members<br>
+							Alternate Member for Infrastructure<br>
+							Alternate Member for Goods<br>
+							BAC Secretariat<br>
+							Rhea Meszurika Arimado<br>
+							Technical Working Group<br>
+							Technical Working Group Member for Goods<br>
+							Technical Working Group Member for Goods<br>
+							Technical Working Group Member for Infrastructure<br>
+							Technical Working Group Member for Infrastructure<br>
+							Inspectorate Team<br>
+							Mark Angelo Castro<br>
+						</i><br></center>
+				   </h3>
+				  </div>
+				  <br><br><br></br>
+				 
+	  
+		  
+		  <div class="css" id="procurement" align="center">
+			  <h2><font color="gray"></font></h2>
+				  <font face = "Monotype Corsiva" size = "6"><b>PROCUREMENT/BAC TRACKING</b></font>
+				  <h3><center>  
+						 
+							Bids & Awards Committee<br>
+							Chairman<br>
+							Members of the Committee<br>
+							Alternate Members<br>
+							Alternate Member for Infrastructure<br>
+							Alternate Member for Goods<br>
+							BAC Secretariat<br>
+							Rhea Meszurika Arimado<br>
+							Technical Working Group<br>
+							Technical Working Group Member for Goods<br>
+							Technical Working Group Member for Goods<br>
+							Technical Working Group Member for Infrastructure<br>
+							Technical Working Group Member for Infrastructure<br>
+							Inspectorate Team<br>
+							Mark Angelo Castro<br>
+						</i><br></center>
+				   </h3>
+		  </div>
+		  <br><br><br></br>
+		 
+		  <div class="css" id="financialreports" align="center">
+		  <h2><font color="gray"></font></h2><br>
+              <font face = "Monotype Corsiva" size = "6"><b>FINANCIAL REPORTS</b></font>
+			  <div class="carousel-container"><br>
+					<div id="myCarousel" class="carousel slide" data-ride="carousel">
+						<!-- Indicators -->
+						<ol class="carousel-indicators">
+							<li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+							<li data-target="#myCarousel" data-slide-to="1"></li>
+						</ol>
+
+						<!-- Slides -->
+						<div class="carousel-inner">
+							<div class="item active">
+								<img src="img/Carousel/carousel_image1.jpg?v=1" alt="Carousel Image 1">
+							</div>
+							<div class="item">
+								<img src="img/Carousel/carousel_image2.jpg?v=1" alt="Carousel Image 2">
+							</div>
+						</div>
+
+						<!-- Controls -->
+						<span class="left carousel-control" href="#myCarousel" data-slide="prev" onmouseover="this.style.color='#0056b3'; this.style.cursor='pointer';" onmouseout="this.style.color='';">
+							<span class="glyphicon glyphicon-chevron-left"></span>
+						</span>
+						<span class="right carousel-control" href="#myCarousel" data-slide="next" onmouseover="this.style.color='#0056b3'; this.style.cursor='pointer';" onmouseout="this.style.color='';">
+							<span class="glyphicon glyphicon-chevron-right"></span>
+						</span>
+					</div>
+				</div>
+		  </div>
+		 
+		<br><br><br></br> 
+		
+				<div class="css" id="helpdesk" style="width:50%;align:center;" align="center">
+				  <h2><font color="gray"></font></h2>
+					  <font face = "Monotype Corsiva" size = "6"><b>Helpdesk</b></font>
+					  <form class="form-signin" action="#" method="POST">
+						<link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;700&display=swap" rel="stylesheet">
+						<input type="text" class="form-control" name="name" id="name" placeholder="Full Name" required="" /><br>
+						<input type="email" class="form-control" name="email" id="email" placeholder="Email" required="" /><br>
+						<textarea type="textarea" class="form-control" name="message" id="message" placeholder="message" required="" /></textarea>
+						<button class="btn btn-lg btn-primary btn-block" type="submit">Send</button>
+						<br>
+					  </form>
+				</div>
+		</div>
+    </section>
+
+  </body>
+  </html>
+  <br></br>
+  
+<?php
+  include("footer.php");
+?>
